@@ -1,5 +1,4 @@
-.banner-wrap {	
-	background-color: $c-gray-3;
+.banner-wrap {		
 	margin: 0 0 20px 0;
 }
 
@@ -25,7 +24,7 @@
 
    }
    
-   img {
+   img {      
       @extend %img-responsive;
    }
 
