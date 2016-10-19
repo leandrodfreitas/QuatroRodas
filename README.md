@@ -3,6 +3,7 @@
 <ul>
   <li>HTML5</li>
   <li>SASS</li>
+  <li>Flexbox</li>
   <li>Responsive</li>
   <li>Compass</li>
   <li>Bower</li>
