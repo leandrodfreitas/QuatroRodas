@@ -1,7 +1,7 @@
 *, 
 *:after, 
 *:before {
-   box-sizing: border-box;
+   @include box-sizing(border-box);
 }
 
 body {	
@@ -9,10 +9,9 @@ body {
 	font-family: 'dosisbold', Open Sans, sans-serif;
 }
 
-.wrap {
-	display: block;
-	margin: 0 auto;
+.wrap {	
 	max-width: 1325px;
+   @extend %center-block;
    
    &:after {
 		content: "";
