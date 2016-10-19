@@ -1,0 +1,23 @@
+.title-area {
+   bottom: 17px;
+   color: $c-white;   
+   position: absolute;
+   right: 17px;  
+   text-align: right;
+   z-index: 1;
+
+   h1 {
+      font-size: 29px;
+		line-height: 32px;
+		margin-top: 10px;
+      text-transform: uppercase;
+   }
+   
+   h2 {
+      font-size: 18px;
+		line-height: 20px;
+		margin-top: 10px;
+      text-transform: uppercase;
+   }
+
+}

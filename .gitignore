@@ -1,0 +1,6 @@
+assets/.sass-cache
+bower_components/flex-grid-framework/logo
+bower_components/flex-grid-framework/site
+bower_components/jquery/external
+bower_components/jquery/src
+node_modules

@@ -1,0 +1,34 @@
+/* RESET CSS */
+@import "compass/reset";
+
+/* DEPENDENCIES */
+@import "../../bower_components/flex-grid-framework/flex-grid-framework";
+
+// SETTINGS
+@import "settings/mixins",	
+        "settings/variables";
+
+// BASE
+@import "base/global";
+
+// COMPONENTS
+@import "components/propaganda",
+        "components/header",
+        "components/main-menu",
+	     "components/menu-colapsed",
+        "components/search",
+        "components/second-menu",
+        "components/main-banner",
+        "components/destaques-bottom",
+        "components/title-area";
+
+// GENERIC
+@import "generic/icons",
+        "generic/typography",
+        "generic/media-queries";
+        
+// GENERIC
+@import "trumps/helpers";
+
+// ELEMENTS
+@import "elements/decorators";

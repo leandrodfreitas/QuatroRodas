@@ -1,0 +1,30 @@
+.search-container {
+	padding-top: 31px;
+	@extend %col-2;
+}
+
+.search-content {
+	position: relative;
+	width: 90%;
+}
+
+.search-item {
+	padding: 5px 5px;
+	width: 100%;
+}
+
+.search-btn {
+	background: transparent;
+	border: 0;
+}
+
+.search-icon {
+	color: $c-gray-5;
+	cursor: pointer;
+	font-size: 24px;
+	right: 7px;
+	position: absolute;
+	outline: none;
+	top: 3px;
+	
+}

@@ -1,0 +1,110 @@
+.main-menu {
+	@extend %col-7;
+   
+	ul {      
+				
+		li {
+         float: left; 
+			
+			&.active {
+				background-color: $c-gray-2;
+			}
+			
+			a {
+				color: $c-white;
+				display: block;
+				padding: 38px 11px 35px 11px;
+				font-size: 15px;
+				font-weight: 700;
+				text-decoration: none;
+				text-transform: uppercase;
+				
+				&:hover {
+					background-color: $c-gray-2;
+				}
+            
+            i {
+               font-size: 13px;
+               margin-left: 6px;
+            }
+            
+			}
+         
+         .children {            
+            background-color: $c-gray-2;
+            border-bottom: 1px solid $c-primary; 
+            display: none;
+            left: 0;				
+				position: absolute;				
+            width: 100%;
+            z-index: 4;				
+							            
+            .page_item {                  
+               float: left;
+               width: 16.5%;
+					
+					&.first_children {
+						background-color: $c-gray-6;
+						
+						a {
+							text-align: right;
+							
+							&:hover, &:first-child {
+								background-color: $c-gray-2;
+							}
+							
+						}						
+						
+					}
+				   
+               a {
+                  display: block;
+                  padding: 20px 12px;
+                  
+                  &:hover {
+                     color: $c-gray-1;
+                  }
+						
+						p {
+							line-height: 20px;
+							font-size: 17px;
+							text-transform: none;
+						}
+                  
+               }
+               
+               figure {
+						margin-bottom: 10px;
+                  position: relative;
+						
+						&:hover {
+							opacity: .8;
+						}
+                  
+                  &:after {
+                     @extend %shadow;
+                  }                  
+                  
+                  img {                     
+                     @extend %img-responsive;
+                  }
+                  
+               }
+               
+               p {
+                  color: $c-white;
+                  font-size: 12px;
+                  font-weight: 600;
+                  padding: 0 15px 15px 0;
+                  text-transform: uppercase;                  
+               }
+               
+            }
+            
+         }
+			
+		}
+		
+	}
+	
+}

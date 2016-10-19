@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "abril";
+  src:url("icons/abril.eot");
+  src:url("icons/abril.eot?#iefix") format("embedded-opentype"),
+      url("icons/abril.woff") format("woff"),
+      url("icons/abril.ttf") format("truetype"),
+      url("icons/abril.svg#abril") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "abril" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "abril" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-down:before {
+  content: "\61";
+}
+.icon-square:before {
+  content: "\62";
+}
+.icon-search:before {
+  content: "\63";
+}
+.icon-chevron-right:before {
+  content: "\64";
+}

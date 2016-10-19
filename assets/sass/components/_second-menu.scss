@@ -1,0 +1,29 @@
+.second-menu {	
+	background-color: $c-gray-2;
+	width: 100%;
+	
+	ul {
+		
+		li {
+			float: left;		
+				
+			a {
+				color: $c-white;
+				display: block;	
+				font-size: 14px;
+				font-weight: 300;
+				padding: 8px 21px;
+				text-decoration: none;
+				text-transform: uppercase;
+            
+            &:hover {
+               color: $c-gray-1;
+            }
+            
+			}
+			
+		}	
+	
+	}
+	
+}

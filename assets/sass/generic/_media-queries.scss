@@ -1,0 +1,155 @@
+@media(max-width: 1350px) {
+	
+	.logo {
+		@include mq-col(2);
+		
+		a {
+			margin-left: 0;
+		}
+		
+		img {
+			height: auto;
+			max-width: 100%;
+		}	
+		
+	}
+	
+	.main-menu {				
+		@include mq-col(10);
+	}
+	
+	.search-container {
+		border-top: 1px solid $c-red;
+		padding-top: 15px;
+		padding-left: 1%;
+		padding-right: 1%;
+		@include mq-col(12);
+		
+		.search-content {
+			width: 100%;
+		}
+		
+	}
+	
+}
+
+@media(max-width: 1024px) {
+	
+	.main-menu, 
+	.logo {
+		@include mq-col(12);
+	}
+	
+	.logo img {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.main-menu ul li a {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	
+	.title-area {
+		bottom: 8px;
+		right: 8px;
+	}
+	
+	.title-area h1 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	
+	.title-area h2 {
+		font-size: 16px;
+	}
+	
+	.bullets {
+		font-size: 13px;
+	}
+	
+}
+
+@media(max-width: 800px) {
+	
+	.logo {
+		margin-bottom: 12px;
+	}
+
+	.main-menu  {
+		border-top: 1px solid $c-red;
+		display: none;
+	}
+	
+	.main-menu ul li {
+		border-bottom: 1px solid $c-red;
+		float: none;
+		
+		& .children {			
+			float: left;
+			position: initial;
+		}
+
+		a {
+			padding-bottom: 18px;
+			padding-top: 18px;
+								
+			i {
+				float: right;
+				font-size: 20px;
+			}
+			
+		}
+
+	}
+	
+	.main-menu ul li .children .page_item {
+		border-bottom: 0;
+		width: 50%;
+		
+		a {
+			font-size: 14px;
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}		
+				
+	}
+	
+	.button-container {
+		display: block;
+	}
+   
+   .second-menu ul li a {
+      padding-left: 14px;
+      padding-right: 14px;
+   }
+	
+}
+
+@media(max-width: 695px) {
+	
+	.banner-large, 
+	.banner-small {
+		width: 100%;
+	}
+	
+	.destaques-item {
+		@include mq-col(6);
+	}
+	
+}
+
+@media(max-width: 500px) {
+	
+	.banner-small__action {
+		width: 100%;
+	}
+	
+	.destaques-item {
+		@include mq-col(12);
+	}	
+	
+}
+
+
+

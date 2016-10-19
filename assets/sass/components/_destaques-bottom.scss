@@ -1,0 +1,65 @@
+.destaques-wrap {
+   margin-bottom: 30px;
+}
+
+.destaques-item {
+	margin-bottom: 25px;
+   @extend %col-3;
+}
+
+.destaques-action-1 {
+   color: $c-white;   
+}
+
+.destaques-media {
+   position: relative;
+	
+	&:hover {
+		opacity: .8;
+	}
+   
+   &:after {
+      @extend %shadow;
+   }
+	
+	img {
+   	@extend %img-responsive;
+	}
+	
+	.bullet {
+		bottom: 18px;
+		right: 18px;
+		position: absolute;
+		z-index: 2;
+	}
+   
+}
+
+.destaques-title {
+   color: $c-gray-3;
+   margin: 10px 0;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 25px;
+   text-transform: uppercase;
+}
+
+.destaques-text {
+   color: $c-gray-5;
+   font-size: 17px;
+   line-height: 21px;
+   margin-bottom: 10px;
+}
+
+.destaques-action-2 {
+   color: $c-primary;
+   font-size: 15px;
+   font-weight: 700;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   &:hover {
+      color: $c-gray-2;
+   }
+
+}

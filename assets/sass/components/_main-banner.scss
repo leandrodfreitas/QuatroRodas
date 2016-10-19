@@ -1,0 +1,69 @@
+.banner-wrap {	
+	background-color: $c-gray-3;
+	margin: 0 0 20px 0;
+}
+
+.banner-large {
+   float: left;		
+   width: 50%;
+
+   &__action {
+      display: block;			
+      position: relative;   
+      
+      &:hover {
+         opacity: .8;
+      }
+   
+   }
+
+   &__media {            
+
+      &:after {
+         @extend %shadow;
+      }
+
+   }
+   
+   img {
+      @extend %img-responsive;
+   }
+
+   .title-area {				
+      width: 50%;
+   }
+
+}
+
+.banner-small {
+   float: left;
+   width: 50%;
+
+   &__action {
+      display: block;
+      position: relative;
+      width: 50%;
+      
+      &:hover {
+         opacity: .8;
+      }
+      
+   }
+
+   &__media {            
+
+      &:after {
+         @extend %shadow;
+      }
+
+   }
+   
+   img {
+      @extend %img-responsive;				
+   }
+   
+   .title-area {				
+      width: 70%;
+   }
+
+}

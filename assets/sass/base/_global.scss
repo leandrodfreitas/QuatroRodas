@@ -1,0 +1,28 @@
+*, 
+*:after, 
+*:before {
+   box-sizing: border-box;
+}
+
+body {	
+	background-color: $c-gray-4;
+	font-family: 'dosisbold', Open Sans, sans-serif;
+}
+
+.wrap {
+	display: block;
+	margin: 0 auto;
+	max-width: 1325px;
+   
+   &:after {
+		content: "";
+		display: table;
+		clear: both;
+   }
+   
+}
+
+.row {   
+   max-width: 100%!important;
+   @extend %row;
+}
