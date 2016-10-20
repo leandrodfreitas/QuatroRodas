@@ -4,8 +4,7 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var files = [
-   'index.php',
-	'http://localhost/quatrorodas',
+   'index.html',
    'assets/css/style.css'
 ];
 

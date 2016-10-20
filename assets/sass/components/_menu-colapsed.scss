@@ -4,22 +4,25 @@
    padding: 10px;
    position: absolute;
 	right: 0;
-   top: 15px;
-   width: 55px;
+   top: 17px;
+   width: 50px;
    z-index: 1;
 	   
    &.active {
                   
       .top {
-         transform: translateY(11px) translateX(0) rotate(45deg);
+         transform: translateY(10px) translateX(0) rotate(45deg);
+			@include transition(all, .4s);
       }
       
       .middle {
          opacity: 0;   
+			@include transition(all, .4s);
       }
     
       .bottom {
          transform: translateY(-11px) translateX(0) rotate(-45deg);
+			@include transition(all, .4s);
       }
 		
    }
@@ -31,6 +34,7 @@
       margin-top: 6px;
       height: 4px;
       width: 100%;
+		@include transition(all, 0.3s);
    }
 	
 }

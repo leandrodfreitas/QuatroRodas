@@ -93,6 +93,10 @@
 		border-bottom: 1px solid $c-red;
 		float: none;
 		
+		a:hover {
+			background-color: transparent;
+		}
+		
 		& .children {			
 			float: left;
 			position: initial;
@@ -158,6 +162,3 @@
 	}	
 	
 }
-
-
-
